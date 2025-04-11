@@ -13,9 +13,9 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
-      padding: 0 1rem;
+      padding: 2rem 1rem;
       color: #1a1a1a;
       text-align: center;
     }
@@ -33,6 +33,15 @@
       max-width: 500px;
     }
 
+    .logo-img {
+      max-width: 90%;
+      width: 400px;
+      height: auto;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
     a.button {
       background: #0b3d91;
       color: #fff;
@@ -48,31 +57,38 @@
     }
 
     footer {
-      position: absolute;
-      bottom: 20px;
+      margin-top: 2rem;
       font-size: 0.9rem;
       color: #888;
     }
 
-    img.banner {
-      max-width: 600px;
-      width: 100%;
-      height: auto;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    .contact-button {
+      background: #ff5722;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+      margin-top: 1rem;
+    }
+
+    .contact-button:hover {
+      background: #e64a19;
     }
   </style>
 </head>
 <body>
 
-  <img src="https://raw.githubusercontent.com/MeshachB/listingboost.github.io/main/listingboost-banner.png" alt="ListingBoost Banner" class="banner" />
+  <img src="ChatGPT%20Image%20Apr%2010,%202025,%2006_54_59%20PM.png" alt="ListingBoost Preview" class="logo-img">
 
   <h1>ListingBoost AI</h1>
   <p>Custom AI‑powered email sequences for real estate listings.<br />
      Only $150 for a 3‑email drip campaign—crafted to convert leads and boost visibility.</p>
 
   <a href="https://docs.google.com/document/d/1j5vdQAAr6w2OI5v-qC_60u9UrxHUDQ7XbQ5XaFO8v7M/edit?tab=t.0" class="button">Book a Campaign Now →</a>
+
+  <a href="mailto:MeshachB.listingboostai@gmail.com" class="contact-button">Contact Me</a>
 
   <footer>© 2025 ListingBoost AI · Powered by Meshach B.</footer>
 </body>
